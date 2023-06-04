@@ -56,6 +56,9 @@ export default {
       password: null,
       phoneNo: null,
       isLoading: null,
+      passwordRegex:
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+{};:,<.>]).{6,}$/,
+      emailRegex: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/,
     };
   },
   //computed
