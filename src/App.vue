@@ -1,6 +1,6 @@
 <template>
-  <SignUp></SignUp>
+  first page
+
+  <router-view> </router-view>
 </template>
-<script setup>
-import SignUp from "./Login/SignUp.vue";
-</script>
+<script setup></script>
