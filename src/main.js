@@ -3,6 +3,6 @@ import "./style.css";
 import App from "./App.vue";
 import router from "./routes.js";
 const app = createApp(App)
-App.mount("#app");
+app.mount("#app");
 
 
