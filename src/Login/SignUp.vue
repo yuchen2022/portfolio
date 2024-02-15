@@ -8,6 +8,7 @@
         placeholder="نام کاربری خود را وارد کنید"
         class="border rounded-lg p-2 text-right"
       />
+      
       <label for="email" class="m-2 font-bold">ایمیل</label>
       <input
         type="email"
